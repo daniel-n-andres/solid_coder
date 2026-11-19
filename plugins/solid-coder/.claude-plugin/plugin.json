@@ -1,0 +1,22 @@
+{
+  "name": "solid-coder",
+  "version": "0.1.2",
+  "description": "Makes Claude write and review code against SOLID, DRY, KISS, YAGNI, Law of Demeter, Clean Code and the classic design patterns, with a review-and-fix command.",
+  "author": {
+    "name": "daniel-n-andres",
+    "url": "https://github.com/daniel-n-andres"
+  },
+  "homepage": "https://github.com/daniel-n-andres/solid_coder",
+  "repository": "https://github.com/daniel-n-andres/solid_coder",
+  "license": "MIT",
+  "keywords": [
+    "solid",
+    "clean-code",
+    "design-patterns",
+    "refactoring",
+    "code-quality",
+    "code-review"
+  ],
+  "documentationUrl": "https://github.com/daniel-n-andres/solid_coder#readme",
+  "supportUrl": "https://www.linkedin.com/in/daniel-n-andres/"
+}

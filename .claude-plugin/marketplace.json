@@ -1,0 +1,50 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "daniel-andres-plugins",
+  "owner": {
+    "name": "daniel-n-andres",
+    "url": "https://github.com/daniel-n-andres"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by daniel-n-andres.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "solid-coder",
+      "source": "./plugins/solid-coder",
+      "description": "Makes Claude write and review code against SOLID, DRY, KISS, YAGNI, Law of Demeter, Clean Code and the classic design patterns, with a review-and-fix command.",
+      "author": {
+        "name": "daniel-n-andres",
+        "url": "https://github.com/daniel-n-andres"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "solid",
+        "clean-code",
+        "design-patterns",
+        "refactoring",
+        "code-quality",
+        "code-review"
+      ]
+    },
+    {
+      "name": "solid-coder-guard",
+      "source": "./plugins/solid-coder-guard",
+      "description": "Companion to solid-coder: after every Write/Edit, a separate model call checks the new code against SOLID, DRY, KISS, YAGNI, Law of Demeter and Clean Code, and feeds clear violations back to Claude.",
+      "author": {
+        "name": "daniel-n-andres",
+        "url": "https://github.com/daniel-n-andres"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "solid",
+        "clean-code",
+        "code-quality",
+        "hooks"
+      ]
+    }
+  ]
+}

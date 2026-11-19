@@ -1,0 +1,18 @@
+{
+  "name": "solid-coder-guard",
+  "version": "0.1.2",
+  "description": "Companion to solid-coder: after every Write/Edit, a separate model call checks the new code against SOLID, DRY, KISS, YAGNI, Law of Demeter and Clean Code, and feeds clear violations back to Claude.",
+  "author": {
+    "name": "daniel-n-andres",
+    "url": "https://github.com/daniel-n-andres"
+  },
+  "homepage": "https://github.com/daniel-n-andres/solid_coder",
+  "repository": "https://github.com/daniel-n-andres/solid_coder",
+  "license": "MIT",
+  "keywords": [
+    "solid",
+    "clean-code",
+    "code-quality",
+    "hooks"
+  ]
+}
